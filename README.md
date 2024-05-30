@@ -1,5 +1,6 @@
 # BullseyeWrapper
 A python-based wrapper for identifying editing events using the Bullseye Pipeline
+***This is highly preliminary. The current version does not include reduction of UMI or optical duplicates. It may also be very buggy. If you run into any bugs, please raise an issue so it can be addressed***
 
 This is wrapper for running Bullseye, the scripts of which are available on Github (https://github.com/mflamand/Bullseye).
 
@@ -21,4 +22,5 @@ Next, download the neccessary Bullseye scripts and the BullseyeWrapper.py
 wget 'https://github.com/mflamand/Bullseye/blob/main/Code/Find_edit_site.pl'
 wget 'https://github.com/mflamand/Bullseye/blob/main/Code/parseBAM.pl'
 wget 'https://github.com/mflamand/Bullseye/blob/main/Code/scripts/collapse_matrix.pl'
-wget '
+wget 'https://github.com/tegowski/BullseyeWrapper/blob/main/BullseyeWrapper.py'
+
