@@ -83,7 +83,7 @@ sbatch bullseyewrapper.sh
 
 *Required*
 
---annotationFile [Path to and file name of refFlat annotation file. See (https://github.com/mflamand/Bullseye) for detailed information on generating this file]
+--annotationFile [Path to and file name of refFlat annotation file. See (https://github.com/mflamand/Bullseye) for detailed information on generating this file. Must be omitted if using --knownSites option]
 
 --editType [Type of mutation being queried. Default is C2U, but any combination of _2_ nucleotide works, accepts U (treats as T) and I (treats as G) default is C2U.]
 
