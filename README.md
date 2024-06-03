@@ -61,19 +61,23 @@ sbatch bullseyewrapper.sh
 
 --workingDir [path to working directory for the project. Should be one level up from "software" directory containing scripts]
 
+
 **Other important arguments**
 
 --memoryGB [provide available memory in GB. Failing to set this may slow down the pipeline]
 
 --cpuAvail [provide number of cpus available. Failing to set this may slow down the pipeline]
 
+
 **Arguments for alignment with STAR**
 
 --genomeDir [provide path to the STAR genome index]
 
+
 **Arguments for matrix generation**
 
 --matrixCov [Minimum read coverage for any nucleotide to be included in matrix. Default is 3.]
+
 
 **Arguments for finding editing sites and setting thresholds**
 
@@ -112,6 +116,7 @@ sbatch bullseyewrapper.sh
 --stranded [Use this option if you used a stranded sequencing kit.]
 
 --filterBed [Do not include sites contained within bedfile. Must be bed-6. Provide path and filename.]
+
 
 ***Optional*** **Arguments for FastQC**
 --FastQC [Use this argument to perform FastQC analysis on all input fastq files]
