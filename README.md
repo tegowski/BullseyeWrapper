@@ -68,6 +68,8 @@ sbatch bullseyewrapper.sh
 
 --cpuAvail [provide number of cpus available. Failing to set this may slow down the pipeline]
 
+--noAlign [Same as "all" mode, but skips alignment. Will still run deduplication]
+
 
 **Arguments for alignment with STAR**
 
