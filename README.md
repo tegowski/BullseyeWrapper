@@ -70,6 +70,8 @@ sbatch bullseyewrapper.sh
 
 --noAlign [Same as "all" mode, but skips alignment. Will still run deduplication]
 
+--noControl [Use this option if no control/background editing samples are included (APOBEC1-YTHmut, ADAR only, etc.)]
+
 
 **Arguments for alignment with STAR**
 
