@@ -7,7 +7,7 @@ A python-based wrapper for identifying editing events using the Bullseye Pipelin
 
 2. Optional arguments also allow for the running of FastQC on input fastq files and STAR index generation (See below)
 
-***This is highly preliminary. The current version does not include reduction of UMI duplicates, only optical duplicates. It may also be very buggy. If you run into any bugs, please raise an issue so it can be addressed***
+***This is highly preliminary. The current version does not include reduction of UMI duplicates, only optical duplicates. If you run into any bugs, please raise an issue so it can be addressed***
 
 This is wrapper for running Bullseye, the scripts of which are available on Github (https://github.com/mflamand/Bullseye). Please see the github for the Bullseye pipeline for detailed information on the pipeline and how it works.
 
